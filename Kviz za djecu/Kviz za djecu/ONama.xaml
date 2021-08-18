@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kviz_za_djecu.ONama">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Frame AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Padding="0">
+                <StackLayout>
+                    <Image Source="bg2.jpg" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ></Image>
+                </StackLayout>
+            </Frame>
+
+            <Label Text="O nama" FontSize="30" TextColor="#ffff00" BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0.5,0.2,1,0.1" AbsoluteLayout.LayoutFlags="All" Padding="8"></Label>
+            <Label Text="Aplikacija je namijenjena djeci, a sadrži abecedu vezanu za tvrtku Đuro Đaković i njene proizvode. Izradili su ju učenici 4.b razreda Tehničke škole Slavonski Brod, Dorian Marušić i Leon Divić u suradnji sa udrugom Connect IT tokom sudjelovanja u Menthor programu."
+                   FontSize="20" TextColor="#ffff00"  BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,0.75,1,0.6" AbsoluteLayout.LayoutFlags="All" Padding="8"></Label>
+
+            <Frame AbsoluteLayout.LayoutBounds="0.5,0.84,0.7,0.3" AbsoluteLayout.LayoutFlags="All" Padding="0">
+                <StackLayout>
+                    <Image Source="pic1.jpg" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ></Image>
+                </StackLayout>
+            </Frame>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

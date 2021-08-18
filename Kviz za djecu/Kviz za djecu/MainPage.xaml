@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kviz_za_djecu.MainPage">
+
+<AbsoluteLayout Margin="0">
+    <Frame AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Padding="0">
+        <StackLayout>
+            <Image Source="bg.jpg" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ></Image>
+        </StackLayout>
+    </Frame>
+
+    <Label Text="Đuro Đaković kviz za djecu" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutBounds="0.5,0.2,0.7,0.2" AbsoluteLayout.LayoutFlags="All" FontSize="30" TextColor="MediumBlue">
+    </Label>
+    <Frame AbsoluteLayout.LayoutBounds="0.5,0.4,0.2,0.1" AbsoluteLayout.LayoutFlags="All" Padding="0">
+        <StackLayout>
+
+        </StackLayout>
+    </Frame>
+    <Button Text="START" AbsoluteLayout.LayoutBounds="0.5,0.6,0.4,0.13" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Aqua" FontSize="25" TextColor="MediumBlue" BorderWidth="2" BorderColor="MediumBlue" CornerRadius="25" Clicked="Button_Clicked">
+
+    </Button>
+    <Button Text="O APLIKACIJI" AbsoluteLayout.LayoutBounds="0.5,0.8,0.4,0.13" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Aqua" FontSize="25" TextColor="MediumBlue" BorderWidth="2" BorderColor="MediumBlue" CornerRadius="25" Clicked="Button_Clicked_1"></Button>
+</AbsoluteLayout>
+
+</ContentPage>

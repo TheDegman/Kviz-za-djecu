@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kviz za djecu.Android", "Kviz za djecu\Kviz za djecu.Android\Kviz za djecu.Android.csproj", "{AB3E608D-5BF1-4B01-8068-CF4AF85454A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kviz za djecu", "Kviz za djecu\Kviz za djecu\Kviz za djecu.csproj", "{AFC1F913-B86E-4082-91A1-F70FCFC7C679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB3E608D-5BF1-4B01-8068-CF4AF85454A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3E608D-5BF1-4B01-8068-CF4AF85454A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3E608D-5BF1-4B01-8068-CF4AF85454A5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AB3E608D-5BF1-4B01-8068-CF4AF85454A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3E608D-5BF1-4B01-8068-CF4AF85454A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3E608D-5BF1-4B01-8068-CF4AF85454A5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AFC1F913-B86E-4082-91A1-F70FCFC7C679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC1F913-B86E-4082-91A1-F70FCFC7C679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC1F913-B86E-4082-91A1-F70FCFC7C679}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AFC1F913-B86E-4082-91A1-F70FCFC7C679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC1F913-B86E-4082-91A1-F70FCFC7C679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC1F913-B86E-4082-91A1-F70FCFC7C679}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B2AFA77-FF3F-4B49-9296-05CA7D4D6998}
+	EndGlobalSection
+EndGlobal
